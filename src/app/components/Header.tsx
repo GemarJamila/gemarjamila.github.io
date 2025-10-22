@@ -1,7 +1,6 @@
 import { Box, Button, Grid, Typography } from '@mui/material'
 import Image from 'next/image'
 import React from 'react'
-import ProfileIMG from '@/app/assets/profile.jpg'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FlatwareIcon from '@mui/icons-material/Flatware';
 import CodeIcon from '@mui/icons-material/Code';
@@ -15,7 +14,7 @@ export default function Header() {
         <Grid container textAlign={{ xs: 'center', sm: 'start', md: 'start' }}>
             <Grid size={{ xs: 12, sm: 2.5, md: 2.5 }} sx={{ display: 'flex', justifyContent: { xs: 'center', sm: 'start', md: 'start' }, padding: '1rem 0.2rem', }}>
                 <Image
-                    src={ProfileIMG}
+                    src="/profile.jpg"
                     alt='Profile Photo'
                     width={180}
                     height={180}
