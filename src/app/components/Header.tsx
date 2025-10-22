@@ -11,8 +11,8 @@ import DownloadIcon from '@mui/icons-material/Download';
 
 export default function Header() {
     return (
-        <Grid container textAlign={{ xs: 'center', sm: 'start', md: 'start' }}>
-            <Grid size={{ xs: 12, sm: 2.5, md: 2.5 }} sx={{ display: 'flex', justifyContent: { xs: 'center', sm: 'start', md: 'start' }, padding: '1rem 0.2rem', }}>
+        <Grid container textAlign={{ xs: 'center', sm: 'center', md: 'start' }}>
+            <Grid size={{ xs: 12, sm: 12, md: 2.5 }} sx={{ display: 'flex', justifyContent: { xs: 'center', sm: 'center', md: 'start' }, padding: '1rem 0.2rem', }}>
                 <Image
                     src="/profile.jpg"
                     alt='Profile Photo'
@@ -21,14 +21,14 @@ export default function Header() {
                     style={{ borderRadius: '2%', objectFit: 'cover' }}
 
                 /></Grid>
-            <Grid size={{ xs: 12, sm: 9.5, md: 9.5 }} sx={{ padding: '1rem', display: 'flex', flexDirection: 'column' }}>
+            <Grid size={{ xs: 12, sm: 12, md: 9.5 }} sx={{ padding: '1rem', display: 'flex', flexDirection: 'column' }}>
 
                 <Grid container >
                     <Grid size={{ xs: 12, sm: 12, md: 12 }} >
                         <Typography sx={{ fontSize: 25, fontWeight: 700, fontFamily: 'sans-serif' }}>
                             Gemar Jamila
                         </Typography>
-                        <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: { xs: 'center', sm: 'start', md: 'start' } }} >
+                        <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: { xs: 'center', sm: 'center', md: 'start' } }} >
                             <LocationOnIcon sx={{ fontSize: 14, marginTop: '1px' }} />
                             <Typography sx={{ fontSize: 12, fontFamily: 'sans-serif', gap: 10 }}>
                                 Cagayan de Oro City, Philippines
@@ -38,20 +38,20 @@ export default function Header() {
                     <Grid size={{ xs: 12, sm: 12, md: 12 }}>
                         <Grid container mt={2} >
 
-                            <Grid size={{ xs: 12, sm: 6, md: 6 }}>
+                            <Grid size={{ xs: 12, sm: 12, md: 6 }}>
                                 <Typography sx={{ fontSize: '1rem', lineHeight: '1.5rem', fontFamily: 'sans-serif', }}>
                                     Web Developer
                                 </Typography>
                             </Grid>
-                            <Grid size={{ xs: 12, sm: 6, md: 6 }}>
+                            <Grid size={{ xs: 12, sm: 12, md: 6 }}>
 
-                                <Grid container gap={{ xs: 2, sm: 0, md: 0 }}  >
+                                <Grid container gap={{ xs: 2, sm: 2, md: 0 }}  >
 
-                                    <Grid size={{ xs: 12, sm: 6, md: 6 }} display={'flex'} justifyContent={'center'}>
+                                    <Grid size={{ xs: 12, sm: 12, md: 6 }} display={'flex'} justifyContent={'center'}>
                                         <Button startIcon={<MailOutlineIcon />} variant='outlined'
                                             href='mailto:gemarjamila0@gmail.com'
                                             sx={{
-                                                mt: { xs: 1, sm: 0, md: 0 },
+                                                mt: { xs: 1, sm: 1, md: 0 },
                                                 color: 'white',
                                                 borderColor: '#808080ff',
                                                 borderRadius: '7px',
@@ -67,7 +67,7 @@ export default function Header() {
                                         </Button>
                                     </Grid>
 
-                                    <Grid size={{ xs: 12, sm: 6, md: 6 }} display={'flex'} justifyContent={'center'}>
+                                    <Grid size={{ xs: 12, sm: 12, md: 6 }} display={'flex'} justifyContent={'center'}>
 
                                         <Button href='/resume.pdf' download='Gemar_Jamila_Resume.pdf' startIcon={<DownloadIcon />} variant='outlined'
                                             sx={{

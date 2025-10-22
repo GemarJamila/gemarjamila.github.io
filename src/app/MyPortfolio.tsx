@@ -14,10 +14,10 @@ export default function MyPortfolio() {
                 <Grid size={{ xs: 12, sm: 12, md: 12 }}>
                     <Header />
                 </Grid>
-                <Grid size={{ xs: 12, sm: 4, md: 4 }}>
+                <Grid size={{ xs: 12, sm: 12, md: 4 }}>
                     <Experience />
                 </Grid>
-                <Grid size={{ xs: 12, sm: 8, md: 8 }}>
+                <Grid size={{ xs: 12, sm: 12, md: 8 }}>
                     <About />
                 </Grid>
 

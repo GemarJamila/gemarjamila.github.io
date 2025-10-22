@@ -38,8 +38,8 @@ export default function Experience() {
                     p: 2,
                     display: 'flex',
                     flexDirection: 'column',
-                    alignItems: { xs: 'center', sm: 'start', md: 'start' },
-                    textAlign: { xs: 'center', sm: 'start', md: 'start' },
+                    alignItems: { xs: 'center', sm: 'center', md: 'start' },
+                    textAlign: { xs: 'center', sm: 'center', md: 'start' },
                 }}
             >
 

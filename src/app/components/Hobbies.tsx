@@ -30,7 +30,7 @@ export default function Hobbies() {
                     </Typography>
                 </Box>
 
-                <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row', md: 'row' }, gap: 1 }}>
+                <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'column', md: 'row' }, gap: 1 }}>
                     {hobbies.map((item, index) => (
 
                         <Chip key={index} color="default" label={item.title} variant="outlined" sx={{ color: 'white', '&:hover': { borderColor: '#07f9c7', transition: '0.3s' }, }} />
