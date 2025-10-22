@@ -4,7 +4,7 @@ import InfoIcon from '@mui/icons-material/Info';
 
 export default function About() {
     return (
-        <Box sx={{ p: 0.25 }} width={'100%'} height={'100.2%'} >
+        <Box sx={{ p: 0.25 }} width={'100%'} height={'100%'} >
             <Paper
                 variant='outlined'
                 elevation={2}
