@@ -1,7 +1,6 @@
 'use client';
 import { Box } from "@mui/material";
 import MyPortfolio from "./MyPortfolio";
-import './custom.css'
 
 export default function Page() {
   return (
